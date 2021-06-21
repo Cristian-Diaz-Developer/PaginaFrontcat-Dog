@@ -1,64 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front Cat & Dog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="minified/minifiedCss/styles.css">
+    <script src="https://kit.fontawesome.com/ea9129d86a.js" crossorigin="anonymous"></script>
+    <title> Curriculum Vitae | Cristian Diaz</title>
 </head>
+
 <body>
-    <header>
-     <ul>
-         <li>Grandes ofertas en comederos</li>
-         <li>Menú regional 
-             <ul>
-                 <li>Espáñol</li>
-                 <li>$ARG</li>
-             </ul>
-        </li>
-     </ul>
-    <img src="./img/logo.png" alt="logo">
-    <nav>
-        <a href="#">Categorías</a>
-        <a href="#">Pets</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contáctanos</a>
-    </nav>
+
+    <header id="head_Page">
+        <section id="sub-header">
+            <h2>Cristian Diaz</h2>
+            <nav>
+                <ul>
+                    <li><a class="item-menu  active-menu" href="#">Home</a> </li>
+                    <li><a class="item-menu " href="views/sobreMi.html">About Me</a> </li>
+                    <li><a class="item-menu " href="#">Contact</a> </li>
+                    <li><a class="item-menu " href="#">Projects</a> </li>
+                </ul>
+
+            </nav>
+        </section>
+
+
+        <section id="content">
+            <div class="content__profile">
+                <img src="imgcomprimidas/foto-perfil.jpg" alt="photo profile Cristian Diaz">
+            </div>
+
+            <h1>Cristian Diaz</h1>
+            <p>Front-end Developer</p>
+
+        </section>
     </header>
-    <img src="./img/banner.png" alt="imagen de banner principal">
-    <h1>¡Es un placer tenerte aquí! </h1>
-    <h3>¡Comederos en descuento!</h3>
-    <h2>COMEDEROS</h2>
-    <img src="./img/patita.png" alt="Imagen patita">
-    <h2>Productos Destacados</h2>
-    <p>Comederos - Accesorios - Comida</p>
-    <img src="./img/Churrasquito.png" alt="Imagen Churrasquito para perro">
-    <p><strong>Juguete Churrasquito</strong></p>
-    <p>$150</p>
-    <img src="./img/ComederoPerro.png" alt="Imagen comedero para perro">
-    <p><strong>Comedero para perro</strong></p>
-    <p>$150</p>
-    <img src="./img/JugueteHuesito.png" alt="Imagen juguete de huesito para perro">
-    <p>$150</p>
-    <p><strong>Juguete Huesito</strong></p>
-    <h2>Contáctanos</h2>
-    <form action="Contátenos" method="get">        
-        <input type="text" name="nombreyapellido" placeholder="Nombre y Apellido" size="40"><br>
-        <input type="email" name="email" placeholder="Ingresá tu correo electrónico" size="40"><br>
-        <input type="number" name="telefono" placeholder="Teléfono" size="40"><br>
-    <button>Resetear</button>
-    <button>Enviar</button>
-    <p>Suscríbete para más novedades</p>
-    <input type="email" name="email" placeholder="Ingresá tu correo electrónico" size="40">
-    <button>Suscribirme</button><br>
-    <h3>Localidad</h3>
-    <p>Calle - Provincia</p><br>
-    <h3>Teléfono</h3>
-    <p>Número de teléfono</p><br>
-    <h3>Correo Electrónico</h3>
-    <p>Dirección de correo</p><br>
+
+
+    <main id="mainContainer">
+
+
+
+        <section>
+            <h2>Personal Info</h2>
+
+            <ul>
+                <li><span>Name:</span> Cristian Alberto Diaz</li>
+                <li><span>Birth:</span> Sept 22 , 1999</li>
+                <li><span>City:</span> Bogotá, Colombia </li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>Estudies</h2>
+
+
+            <ul class="no-list">    
+                <li><span>At the moment:</span> Certified tech developer - Digital House & MisiónTic 2022</li>           
+                <li><span>2019-2021:</span> Analysis and development of information systems at SENA </li>          
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <ul class="no-list">
+                <li><span>2020-2021: </span>Casa Editorial El tiempo, Analysis and development of information systems</li>
+            </ul>
+        </section>
+
+
+
+
+
+    </main>
+
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <aside id="info-email">
+            <a href="elias83@gmail.com">Email: Cristian.Frontend.Developer@gmail.com</a>
+            <a href="tel:+5732187402">Phone: +57 3202067727</a>
+
+
+        </aside>
+        <aside id="info-socialMedia">
+
+            <a href="https://www.linkedin.com/in/cristian-alberto-diaz-diaz-69865b194/" target="_blank"> <i class="fab fa-linkedin"> </i> </a>
+            <a href="https://www.instagram.com/cristian___lp/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+            <a href="https://github.com/Cristian-Diaz-Developer" target="_blank"> <i class="fab fa-github"></i></a>
+
+        </aside>
     </footer>
+
+
+
 </body>
+
 </html>
